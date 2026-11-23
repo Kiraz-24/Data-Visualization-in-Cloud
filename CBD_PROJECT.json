@@ -1,0 +1,110 @@
+{
+  "properties": {
+    "lenses": [
+      {
+        "order": 0,
+        "parts": [
+          {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "colSpan": 6,
+              "rowSpan": 6
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "parameters",
+                  "value": {
+                    "id": "/subscriptions/9fd2c8a3-9be2-4964-ab11-dbfcd451d84f/resourceGroups/RG_Retail_Project_01"
+                  }
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/ResourceGroupTile.ReactView"
+            }
+          },
+          {
+            "position": {
+              "x": 6,
+              "y": 0,
+              "colSpan": 4,
+              "rowSpan": 6
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "id",
+                  "value": "/subscriptions/9fd2c8a3-9be2-4964-ab11-dbfcd451d84f/resourceGroups/RG_Retail_Project_01/providers/Microsoft.Compute/virtualMachines/VM-Retail-01",
+                  "isOptional": true
+                },
+                {
+                  "name": "resourceId",
+                  "isOptional": true
+                },
+                {
+                  "name": "menuid",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/ResourcePart",
+              "asset": {
+                "idInputName": "id"
+              },
+              "deepLink": "#@gitam.in/resource/subscriptions/9fd2c8a3-9be2-4964-ab11-dbfcd451d84f/resourceGroups/RG_Retail_Project_01/providers/Microsoft.Compute/virtualMachines/VM-Retail-01/overview"
+            }
+          },
+          {
+            "position": {
+              "x": 10,
+              "y": 0,
+              "colSpan": 4,
+              "rowSpan": 6
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "id",
+                  "value": "/subscriptions/9fd2c8a3-9be2-4964-ab11-dbfcd451d84f/resourcegroups/RG_Retail_Project_01/providers/Microsoft.Storage/storageAccounts/blobstorageteam1",
+                  "isOptional": true
+                },
+                {
+                  "name": "resourceId",
+                  "isOptional": true
+                },
+                {
+                  "name": "menuid",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/ResourcePart",
+              "asset": {
+                "idInputName": "id"
+              },
+              "deepLink": "#@gitam.in/resource/subscriptions/9fd2c8a3-9be2-4964-ab11-dbfcd451d84f/resourcegroups/RG_Retail_Project_01/providers/Microsoft.Storage/storageAccounts/blobstorageteam1/overview"
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "model": {
+        "timeRange": {
+          "value": {
+            "relative": {
+              "duration": 24,
+              "timeUnit": 1
+            }
+          },
+          "type": "MsPortalFx.Composition.Configuration.ValueTypes.TimeRange"
+        }
+      }
+    }
+  },
+  "name": "CBD_PROJECT",
+  "type": "Microsoft.Portal/dashboards",
+  "location": "INSERT LOCATION",
+  "tags": {
+    "hidden-title": "CBD_PROJECT"
+  },
+  "apiVersion": "2022-12-01-preview"
+}
